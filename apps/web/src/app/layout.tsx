@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "deneme-testi",
-  description: "deneme-testi",
+  title: "Create Union Site",
+  description: "A modern union site builder",
 };
 
 export default function RootLayout({
