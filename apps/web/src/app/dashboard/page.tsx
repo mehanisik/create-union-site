@@ -14,7 +14,7 @@ export default async function DashboardPage() {
     redirect("/login");
   }
 
-  const { data: customerState, error } = await authClient.customer.state({
+  const { data: customerState } = await authClient.customer.state({
     fetchOptions: {
       headers: await headers(),
     },
